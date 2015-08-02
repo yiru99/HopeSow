@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189431B6E846B00727C91 /* AppDelegate.swift */; };
+		62D189461B6E846B00727C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189451B6E846B00727C91 /* ViewController.swift */; };
+		62D189491B6E846B00727C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D189471B6E846B00727C91 /* Main.storyboard */; };
+		62D1894B1B6E846B00727C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D1894A1B6E846B00727C91 /* Images.xcassets */; };
+		62D1894E1B6E846B00727C91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D1894C1B6E846B00727C91 /* LaunchScreen.xib */; };
+		62D1895A1B6E846B00727C91 /* HopeSowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189591B6E846B00727C91 /* HopeSowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D189541B6E846B00727C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D189361B6E846B00727C91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D1893D1B6E846B00727C91;
+			remoteInfo = HopeSow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D1893E1B6E846B00727C91 /* HopeSow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeSow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D189421B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D189431B6E846B00727C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D189451B6E846B00727C91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62D189481B6E846B00727C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62D1894A1B6E846B00727C91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62D1894D1B6E846B00727C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		62D189531B6E846B00727C91 /* HopeSowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeSowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D189581B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D189591B6E846B00727C91 /* HopeSowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeSowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D1893B1B6E846B00727C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D189501B6E846B00727C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D189351B6E846B00727C91 = {
+			isa = PBXGroup;
+			children = (
+				62D189401B6E846B00727C91 /* HopeSow */,
+				62D189561B6E846B00727C91 /* HopeSowTests */,
+				62D1893F1B6E846B00727C91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D1893F1B6E846B00727C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D1893E1B6E846B00727C91 /* HopeSow.app */,
+				62D189531B6E846B00727C91 /* HopeSowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D189401B6E846B00727C91 /* HopeSow */ = {
+			isa = PBXGroup;
+			children = (
+				62D189431B6E846B00727C91 /* AppDelegate.swift */,
+				62D189451B6E846B00727C91 /* ViewController.swift */,
+				62D189471B6E846B00727C91 /* Main.storyboard */,
+				62D1894A1B6E846B00727C91 /* Images.xcassets */,
+				62D1894C1B6E846B00727C91 /* LaunchScreen.xib */,
+				62D189411B6E846B00727C91 /* Supporting Files */,
+			);
+			path = HopeSow;
+			sourceTree = "<group>";
+		};
+		62D189411B6E846B00727C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D189421B6E846B00727C91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62D189561B6E846B00727C91 /* HopeSowTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D189591B6E846B00727C91 /* HopeSowTests.swift */,
+				62D189571B6E846B00727C91 /* Supporting Files */,
+			);
+			path = HopeSowTests;
+			sourceTree = "<group>";
+		};
+		62D189571B6E846B00727C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D189581B6E846B00727C91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D1893D1B6E846B00727C91 /* HopeSow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1895D1B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSow" */;
+			buildPhases = (
+				62D1893A1B6E846B00727C91 /* Sources */,
+				62D1893B1B6E846B00727C91 /* Frameworks */,
+				62D1893C1B6E846B00727C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopeSow;
+			productName = HopeSow;
+			productReference = 62D1893E1B6E846B00727C91 /* HopeSow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D189521B6E846B00727C91 /* HopeSowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D189601B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSowTests" */;
+			buildPhases = (
+				62D1894F1B6E846B00727C91 /* Sources */,
+				62D189501B6E846B00727C91 /* Frameworks */,
+				62D189511B6E846B00727C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D189551B6E846B00727C91 /* PBXTargetDependency */,
+			);
+			name = HopeSowTests;
+			productName = HopeSowTests;
+			productReference = 62D189531B6E846B00727C91 /* HopeSowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D189361B6E846B00727C91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Adam Cao";
+				TargetAttributes = {
+					62D1893D1B6E846B00727C91 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					62D189521B6E846B00727C91 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 62D1893D1B6E846B00727C91;
+					};
+				};
+			};
+			buildConfigurationList = 62D189391B6E846B00727C91 /* Build configuration list for PBXProject "HopeSow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D189351B6E846B00727C91;
+			productRefGroup = 62D1893F1B6E846B00727C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D1893D1B6E846B00727C91 /* HopeSow */,
+				62D189521B6E846B00727C91 /* HopeSowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D1893C1B6E846B00727C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D189491B6E846B00727C91 /* Main.storyboard in Resources */,
+				62D1894E1B6E846B00727C91 /* LaunchScreen.xib in Resources */,
+				62D1894B1B6E846B00727C91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D189511B6E846B00727C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D1893A1B6E846B00727C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D189461B6E846B00727C91 /* ViewController.swift in Sources */,
+				62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D1894F1B6E846B00727C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1895A1B6E846B00727C91 /* HopeSowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D189551B6E846B00727C91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D1893D1B6E846B00727C91 /* HopeSow */;
+			targetProxy = 62D189541B6E846B00727C91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62D189471B6E846B00727C91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D189481B6E846B00727C91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62D1894C1B6E846B00727C91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D1894D1B6E846B00727C91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D1895B1B6E846B00727C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D1895C1B6E846B00727C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D1895E1B6E846B00727C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HopeSow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62D1895F1B6E846B00727C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HopeSow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62D189611B6E846B00727C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HopeSowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeSow.app/HopeSow";
+			};
+			name = Debug;
+		};
+		62D189621B6E846B00727C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HopeSowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeSow.app/HopeSow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D189391B6E846B00727C91 /* Build configuration list for PBXProject "HopeSow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1895B1B6E846B00727C91 /* Debug */,
+				62D1895C1B6E846B00727C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D1895D1B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1895E1B6E846B00727C91 /* Debug */,
+				62D1895F1B6E846B00727C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62D189601B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D189611B6E846B00727C91 /* Debug */,
+				62D189621B6E846B00727C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D189361B6E846B00727C91 /* Project object */;
+}
