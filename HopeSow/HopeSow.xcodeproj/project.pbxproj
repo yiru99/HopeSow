@@ -10,8 +10,8 @@
 		2CE152A17E5886035F8EAA96 /* libPods-HopeSow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE50293F13111C638299FA /* libPods-HopeSow.a */; };
 		626BA8011B84F730004CD844 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8001B84F730004CD844 /* RegistrationViewController.swift */; };
 		626BA8031B84F740004CD844 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8021B84F740004CD844 /* LoginViewController.swift */; };
-		626BA8071B84F8D8004CD844 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8061B84F8D8004CD844 /* ButtonFactory.swift */; };
 		626BA8091B851504004CD844 /* UserVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8081B851504004CD844 /* UserVerifyViewController.swift */; };
+		626BA80B1B851AE1004CD844 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA80A1B851AE1004CD844 /* AppHelper.swift */; };
 		62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189431B6E846B00727C91 /* AppDelegate.swift */; };
 		62D189461B6E846B00727C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189451B6E846B00727C91 /* ViewController.swift */; };
 		62D189491B6E846B00727C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D189471B6E846B00727C91 /* Main.storyboard */; };
@@ -35,8 +35,8 @@
 		626BA7F71B84F650004CD844 /* HopeSow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HopeSow-Bridging-Header.h"; sourceTree = "<group>"; };
 		626BA8001B84F730004CD844 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		626BA8021B84F740004CD844 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		626BA8061B84F8D8004CD844 /* ButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
 		626BA8081B851504004CD844 /* UserVerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVerifyViewController.swift; sourceTree = "<group>"; };
+		626BA80A1B851AE1004CD844 /* AppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		62D1893E1B6E846B00727C91 /* HopeSow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeSow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D189421B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D189431B6E846B00727C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		626BA8051B84F8B6004CD844 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				626BA8061B84F8D8004CD844 /* ButtonFactory.swift */,
+				626BA80A1B851AE1004CD844 /* AppHelper.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				626BA8031B84F740004CD844 /* LoginViewController.swift in Sources */,
-				626BA8071B84F8D8004CD844 /* ButtonFactory.swift in Sources */,
+				626BA80B1B851AE1004CD844 /* AppHelper.swift in Sources */,
 				62D189461B6E846B00727C91 /* ViewController.swift in Sources */,
 				626BA8011B84F730004CD844 /* RegistrationViewController.swift in Sources */,
 				626BA8091B851504004CD844 /* UserVerifyViewController.swift in Sources */,
