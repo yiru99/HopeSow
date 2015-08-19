@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CE152A17E5886035F8EAA96 /* libPods-HopeSow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE50293F13111C638299FA /* libPods-HopeSow.a */; };
 		62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189431B6E846B00727C91 /* AppDelegate.swift */; };
 		62D189461B6E846B00727C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189451B6E846B00727C91 /* ViewController.swift */; };
 		62D189491B6E846B00727C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D189471B6E846B00727C91 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13FE50293F13111C638299FA /* libPods-HopeSow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HopeSow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D1893E1B6E846B00727C91 /* HopeSow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeSow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D189421B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D189431B6E846B00727C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		62D189531B6E846B00727C91 /* HopeSowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeSowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D189581B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D189591B6E846B00727C91 /* HopeSowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeSowTests.swift; sourceTree = "<group>"; };
+		9F910798D5CE853DEA4960F6 /* Pods-HopeSow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeSow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HopeSow/Pods-HopeSow.debug.xcconfig"; sourceTree = "<group>"; };
+		F8EABE50CF8AA942A12C9785 /* Pods-HopeSow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeSow.release.xcconfig"; path = "Pods/Target Support Files/Pods-HopeSow/Pods-HopeSow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE152A17E5886035F8EAA96 /* libPods-HopeSow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29512DEB82578807156D74DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F910798D5CE853DEA4960F6 /* Pods-HopeSow.debug.xcconfig */,
+				F8EABE50CF8AA942A12C9785 /* Pods-HopeSow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A346DB3687ABEE6FCF1D04C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FE50293F13111C638299FA /* libPods-HopeSow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62D189351B6E846B00727C91 = {
 			isa = PBXGroup;
 			children = (
 				62D189401B6E846B00727C91 /* HopeSow */,
 				62D189561B6E846B00727C91 /* HopeSowTests */,
 				62D1893F1B6E846B00727C91 /* Products */,
+				29512DEB82578807156D74DB /* Pods */,
+				5A346DB3687ABEE6FCF1D04C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62D1895D1B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSow" */;
 			buildPhases = (
+				373F54A70FAD86CE70101D80 /* Check Pods Manifest.lock */,
 				62D1893A1B6E846B00727C91 /* Sources */,
 				62D1893B1B6E846B00727C91 /* Frameworks */,
 				62D1893C1B6E846B00727C91 /* Resources */,
+				096D3172A185DA4983861507 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +232,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096D3172A185DA4983861507 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HopeSow/Pods-HopeSow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		373F54A70FAD86CE70101D80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62D1893A1B6E846B00727C91 /* Sources */ = {
@@ -338,6 +397,7 @@
 		};
 		62D1895E1B6E846B00727C91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F910798D5CE853DEA4960F6 /* Pods-HopeSow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HopeSow/Info.plist;
@@ -348,6 +408,7 @@
 		};
 		62D1895F1B6E846B00727C91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EABE50CF8AA942A12C9785 /* Pods-HopeSow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HopeSow/Info.plist;
@@ -409,6 +470,7 @@
 				62D1895F1B6E846B00727C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62D189601B6E846B00727C91 /* Build configuration list for PBXNativeTarget "HopeSowTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +479,7 @@
 				62D189621B6E846B00727C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
