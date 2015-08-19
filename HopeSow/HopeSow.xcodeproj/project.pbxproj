@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2CE152A17E5886035F8EAA96 /* libPods-HopeSow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE50293F13111C638299FA /* libPods-HopeSow.a */; };
+		626BA8011B84F730004CD844 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8001B84F730004CD844 /* RegistrationViewController.swift */; };
+		626BA8031B84F740004CD844 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8021B84F740004CD844 /* LoginViewController.swift */; };
 		62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189431B6E846B00727C91 /* AppDelegate.swift */; };
 		62D189461B6E846B00727C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189451B6E846B00727C91 /* ViewController.swift */; };
 		62D189491B6E846B00727C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D189471B6E846B00727C91 /* Main.storyboard */; };
@@ -28,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		13FE50293F13111C638299FA /* libPods-HopeSow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HopeSow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626BA7F71B84F650004CD844 /* HopeSow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HopeSow-Bridging-Header.h"; sourceTree = "<group>"; };
+		626BA8001B84F730004CD844 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		626BA8021B84F740004CD844 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		62D1893E1B6E846B00727C91 /* HopeSow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeSow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D189421B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D189431B6E846B00727C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +112,9 @@
 				62D1894A1B6E846B00727C91 /* Images.xcassets */,
 				62D1894C1B6E846B00727C91 /* LaunchScreen.xib */,
 				62D189411B6E846B00727C91 /* Supporting Files */,
+				626BA7F71B84F650004CD844 /* HopeSow-Bridging-Header.h */,
+				626BA8001B84F730004CD844 /* RegistrationViewController.swift */,
+				626BA8021B84F740004CD844 /* LoginViewController.swift */,
 			);
 			path = HopeSow;
 			sourceTree = "<group>";
@@ -271,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626BA8031B84F740004CD844 /* LoginViewController.swift in Sources */,
 				62D189461B6E846B00727C91 /* ViewController.swift in Sources */,
+				626BA8011B84F730004CD844 /* RegistrationViewController.swift in Sources */,
 				62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,9 +410,12 @@
 			baseConfigurationReference = 9F910798D5CE853DEA4960F6 /* Pods-HopeSow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HopeSow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HopeSow/HopeSow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,9 +424,11 @@
 			baseConfigurationReference = F8EABE50CF8AA942A12C9785 /* Pods-HopeSow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HopeSow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HopeSow/HopeSow-Bridging-Header.h";
 			};
 			name = Release;
 		};
