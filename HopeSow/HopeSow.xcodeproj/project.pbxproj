@@ -12,6 +12,9 @@
 		626BA8031B84F740004CD844 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8021B84F740004CD844 /* LoginViewController.swift */; };
 		626BA8091B851504004CD844 /* UserVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA8081B851504004CD844 /* UserVerifyViewController.swift */; };
 		626BA80B1B851AE1004CD844 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BA80A1B851AE1004CD844 /* AppHelper.swift */; };
+		626D0D031B891FE200471C65 /* SwiftRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D0D021B891FE200471C65 /* SwiftRequest.swift */; };
+		626D0D151B89205800471C65 /* TwilioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D0D141B89205800471C65 /* TwilioHelper.swift */; };
+		626D0D161B8923A700471C65 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626D0D0C1B891FF100471C65 /* Alamofire.framework */; };
 		62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189431B6E846B00727C91 /* AppDelegate.swift */; };
 		62D189461B6E846B00727C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D189451B6E846B00727C91 /* ViewController.swift */; };
 		62D189491B6E846B00727C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D189471B6E846B00727C91 /* Main.storyboard */; };
@@ -21,6 +24,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		626D0D0B1B891FF100471C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626D0D041B891FF100471C65 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		626D0D0D1B891FF100471C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626D0D041B891FF100471C65 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		626D0D0F1B891FF100471C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626D0D041B891FF100471C65 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		626D0D111B891FF100471C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626D0D041B891FF100471C65 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
 		62D189541B6E846B00727C91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62D189361B6E846B00727C91 /* Project object */;
@@ -37,6 +68,9 @@
 		626BA8021B84F740004CD844 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		626BA8081B851504004CD844 /* UserVerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVerifyViewController.swift; sourceTree = "<group>"; };
 		626BA80A1B851AE1004CD844 /* AppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		626D0D021B891FE200471C65 /* SwiftRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRequest.swift; sourceTree = "<group>"; };
+		626D0D041B891FF100471C65 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../ios dev/Alamofire/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		626D0D141B89205800471C65 /* TwilioHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwilioHelper.swift; sourceTree = "<group>"; };
 		62D1893E1B6E846B00727C91 /* HopeSow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeSow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D189421B6E846B00727C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D189431B6E846B00727C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626D0D161B8923A700471C65 /* Alamofire.framework in Frameworks */,
 				2CE152A17E5886035F8EAA96 /* libPods-HopeSow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +130,17 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		626D0D051B891FF100471C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626D0D0C1B891FF100471C65 /* Alamofire.framework */,
+				626D0D0E1B891FF100471C65 /* Alamofire.framework */,
+				626D0D101B891FF100471C65 /* Alamofire iOS Tests.xctest */,
+				626D0D121B891FF100471C65 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		62D189351B6E846B00727C91 = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +164,12 @@
 		62D189401B6E846B00727C91 /* HopeSow */ = {
 			isa = PBXGroup;
 			children = (
+				626D0D041B891FF100471C65 /* Alamofire.xcodeproj */,
+				626D0D021B891FE200471C65 /* SwiftRequest.swift */,
 				626BA8051B84F8B6004CD844 /* Helpers */,
 				62D189431B6E846B00727C91 /* AppDelegate.swift */,
 				62D189451B6E846B00727C91 /* ViewController.swift */,
+				626D0D141B89205800471C65 /* TwilioHelper.swift */,
 				62D189471B6E846B00727C91 /* Main.storyboard */,
 				62D1894A1B6E846B00727C91 /* Images.xcassets */,
 				62D1894C1B6E846B00727C91 /* LaunchScreen.xib */,
@@ -227,6 +276,12 @@
 			mainGroup = 62D189351B6E846B00727C91;
 			productRefGroup = 62D1893F1B6E846B00727C91 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 626D0D051B891FF100471C65 /* Products */;
+					ProjectRef = 626D0D041B891FF100471C65 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				62D1893D1B6E846B00727C91 /* HopeSow */,
@@ -234,6 +289,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		626D0D0C1B891FF100471C65 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 626D0D0B1B891FF100471C65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		626D0D0E1B891FF100471C65 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 626D0D0D1B891FF100471C65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		626D0D101B891FF100471C65 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 626D0D0F1B891FF100471C65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		626D0D121B891FF100471C65 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 626D0D111B891FF100471C65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		62D1893C1B6E846B00727C91 /* Resources */ = {
@@ -298,6 +384,8 @@
 				62D189461B6E846B00727C91 /* ViewController.swift in Sources */,
 				626BA8011B84F730004CD844 /* RegistrationViewController.swift in Sources */,
 				626BA8091B851504004CD844 /* UserVerifyViewController.swift in Sources */,
+				626D0D151B89205800471C65 /* TwilioHelper.swift in Sources */,
+				626D0D031B891FE200471C65 /* SwiftRequest.swift in Sources */,
 				62D189441B6E846B00727C91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

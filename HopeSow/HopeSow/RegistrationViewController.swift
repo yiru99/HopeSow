@@ -63,6 +63,7 @@ class RegistrationViewController: UIViewController {
             user.setValue(randomNumber, forKey: "secureNumber")
             user.signUpInBackgroundWithBlock({ (success, error) -> Void in
                     if (success){
+                        TwilioHelper.sendVerificationCode(randomNumber, phoneNumber: "4122988170")
                         self.performSegueWithIdentifier("registerToVerify", sender: sender)
                         PFUser.logOut()// don't login user yet
                     }else{

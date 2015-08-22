@@ -12,6 +12,8 @@
 	<dict>
 		<key>50C447691423A7163728FD61D06F70B8B9BF4197</key>
 		<string>github.com:yiru99/HopeSow.git</string>
+		<key>9DB01A4972303C55F9DA54F28A654A302AD807EB</key>
+		<string>github.com:ChX0602/SplitMaster.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HopeSow/HopeSow.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>50C447691423A7163728FD61D06F70B8B9BF4197</key>
 		<string>../..</string>
+		<key>9DB01A4972303C55F9DA54F28A654A302AD807EB</key>
+		<string>../../HopeSow/SplitMaster/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:yiru99/HopeSow.git</string>
@@ -35,6 +39,14 @@
 			<string>50C447691423A7163728FD61D06F70B8B9BF4197</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HopeSow</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9DB01A4972303C55F9DA54F28A654A302AD807EB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SplitMaster</string>
 		</dict>
 	</array>
 </dict>

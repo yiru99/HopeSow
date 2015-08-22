@@ -35,6 +35,10 @@ class ViewController: UIViewController {
             UIControlEvents.TouchUpInside)
         toRegisterButton.frame.origin.y = toLoginButton.frame.origin.y + 100
         self.view.addSubview(toRegisterButton)
+
+        
+        
+        
         
     }
 
