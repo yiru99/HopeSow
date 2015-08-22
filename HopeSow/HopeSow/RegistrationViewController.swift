@@ -55,7 +55,7 @@ class RegistrationViewController: UIViewController {
             
         }else{
             var user = PFUser()
-            var randomNumber = Int(print(arc4random_uniform(1000000)))
+            var randomNumber = Int((arc4random_uniform(1000000)))
             print(randomNumber)
             user.password = password
             user.username = phonenumber
@@ -63,9 +63,10 @@ class RegistrationViewController: UIViewController {
             user.setValue(randomNumber, forKey: "secureNumber")
             user.signUpInBackgroundWithBlock({ (success, error) -> Void in
                     if (success){
+                        println("hey inside success")
+                        println(randomNumber)
                         TwilioHelper.sendVerificationCode(randomNumber, phoneNumber: "4122988170")
                         self.performSegueWithIdentifier("registerToVerify", sender: sender)
-                        PFUser.logOut()// don't login user yet
                     }else{
                         self.errorLabel.text = "Unable to signup user"
                     }
